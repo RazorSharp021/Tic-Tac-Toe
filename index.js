@@ -11,6 +11,8 @@ var clickNum = 0;
 var win = false;
 var gameStat = document.querySelector("h2");
 var resButton = document.querySelector(".restart-btn");
+var playerOne = document.querySelector("#score-1");
+var playerTwo = document.querySelector("#score-2");
 
 function mark(event) {
   var boxClicked = event.target;
@@ -31,7 +33,6 @@ function mark(event) {
       box7.textContent === "X"
     ) {
       win = true;
-
       gameStat.textContent = "Player One Wins!";
       playerChoice.removeEventListener("click", mark);
     } else if (
@@ -166,8 +167,23 @@ var playerChoice = document.querySelector(".game-board");
 playerChoice.addEventListener("click", mark);
 
 resButton.addEventListener("click", function () {
-  window.location.reload();
+  if (gameStat.textContent === "Player One Wins!") {
+    playerOne.textContent = Number(playerOne.textContent) + 1;
+  } else if (gameStat.textContent === "Player Two Wins!") {
+    playerTwo.textContent = Number(playerTwo.textContent) + 1;
+  }
+  box1.textContent = "";
+  box2.textContent = "";
+  box3.textContent = "";
+  box4.textContent = "";
+  box5.textContent = "";
+  box6.textContent = "";
+  box7.textContent = "";
+  box8.textContent = "";
+  box9.textContent = "";
+  clickNum = 0;
+  gameStat.textContent = "";
+  win = false;
+
+  playerChoice.addEventListener("click", mark);
 });
-// window.onload = function () {
-//   document.getElementById("#sound-track").play();
-// };

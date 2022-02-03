@@ -2,6 +2,43 @@ body {
   background-image: url(https://64.media.tumblr.com/c80138c025e0b0b56b1521147804c051/tumblr_plkv81xaxe1xqepp2o1_640.gifv);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  height: 800px;
+}
+.score-board {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-shadow: 1px 1px black;
+  font-weight: bolder;
+  font-family: fantasy;
+  color: darkred;
+  font-size: x-large;
+  height: 10px;
+}
+#score-1 {
+  margin-left: 185px;
+}
+#score-2 {
+  margin-right: 160px;
+}
+.score {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-shadow: 1px 1px black;
+  font-weight: bolder;
+  font-family: fantasy;
+  color: darkred;
+  font-size: x-large;
+}
+
+#player-one-score {
+  margin-left: 137px;
+  margin-top: -2px;
+}
+#player-two-score {
+  margin-right: 113px;
+  margin-top: -2px;
 }
 h2 {
   color: red;
@@ -10,6 +47,7 @@ h2 {
   margin-left: 15px;
 }
 .game-title {
+  margin: 0;
   text-shadow: 2px 2px darkred;
   text-decoration: gainsboro;
   margin-left: 18px;
@@ -17,13 +55,21 @@ h2 {
   font-family: fantasy;
   color: red;
 }
+.game-status {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
 section {
   text-align: center;
 }
 .game-board {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  width: 306px;
+  width: 345px;
   margin: 50px auto;
 }
 
@@ -47,7 +93,7 @@ button {
   margin-bottom: 30px;
   width: 100px;
   height: 30px;
-  margin-left: 36px;
+  margin-left: 3px;
   border: 2px solid black;
   border-style: groove;
   background: burlywood;

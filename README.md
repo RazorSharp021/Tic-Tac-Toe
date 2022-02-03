@@ -11,18 +11,18 @@ If neither of the players can do this, the game will be a draw.
 4.We have two players, so we create ( **'X'** and **'O'** ) to toggle between the two
 5.Each player gets to choose an empty slot per turn it has to be an empty available box only...
 
-6.**Game Logic:** if there is no winner (No consecutive 3 boxes selected by any players) result is draw and game restarts.
-If there is a winner, will be announced, and the winner gets a score.
+6.**Game Logic:** if there is no winner (No consecutive 3 boxes selected by any players) result is draw.
+If there is a winner, it will be announced, and the winner gets a score.
 
 ### Cool tech used
 
-images etc
-fonts
+1.**Mortal Kombat** retro cover for the background and the original soundtrack used
 
 ### Lessons you learnt doing the project
 
-importance of planning
+1.Taking little steps and solving little problems 2.**KISS** *K*eeping *I*t *S*imple *S*tupid
+3.Team working and getting feedbacks
 
 ### Future features
 
-keep a scoreboard
+Use mortal Kombat characters to play
