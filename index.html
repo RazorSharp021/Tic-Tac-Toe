@@ -1,11 +1,35 @@
-<!-- TIC TAC TOE -->
-
-<!-- first we need the game board,which can be made of 9 collective boxes, possibly divided into three vertical columns and three horizental rows. -->
-
-<!-- Each box would be given a unique ID so it can be accessed easily through querySelector. -->
-
-<!-- Each player gets to choose an empty slot per turn, which has to be an empty available box only...
-
-Players are to be asked to make a valid choice when click the wrong slot (e.g. an already selected one)
-
-The players choice is to be toggled between 'X' and 'O' after each valid choice, for the next player to play the game. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio autoplay>
+      <source
+        src="Archive - The Immortals - Techno Syndrome (Mortal Kombat).mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <section class="game">
+      <h1 class="game-title">TiK TaK Toe</h1>
+      <h2 class="game-status"></h2>
+      <main class="game-board">
+        <div id="box1" class="boxes"></div>
+        <div id="box2" class="boxes"></div>
+        <div id="box3" class="boxes"></div>
+        <div id="box4" class="boxes"></div>
+        <div id="box5" class="boxes"></div>
+        <div id="box6" class="boxes"></div>
+        <div id="box7" class="boxes"></div>
+        <div id="box8" class="boxes"></div>
+        <div id="box9" class="boxes"></div>
+      </main>
+      <div class="restart-btn"><button>restart</button></div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
