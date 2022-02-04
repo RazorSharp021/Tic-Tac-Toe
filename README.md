@@ -1,4 +1,5 @@
-# Thick tac toe
+# Thick tac toe : [Click to Play](https://razorsharp021.github.io/Tic-Tac-Toe/)
+
 
 The game is played between two players where each player gets to select a box per turn. Any player who successfully selects three boxes in a row (on any direction) wins the game.
 If neither of the players can do this, the game will be a draw.
