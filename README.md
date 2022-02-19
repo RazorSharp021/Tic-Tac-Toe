@@ -1,4 +1,4 @@
-# Thick tac toe : [Click to Play](https://razorsharp021.github.io/Tic-Tac-Toe/)
+# Tic Tac Toe : [Click to Play](https://razorsharp021.github.io/Tic-Tac-Toe/)
 
 
 The game is played between two players where each player gets to select a box per turn. Any player who successfully selects three boxes in a row (on any direction) wins the game.
@@ -19,9 +19,10 @@ If there is a winner, it will be announced, and the winner gets a score.
 
 1.**Mortal Kombat** retro cover for the background and the original soundtrack used
 
-### Lessons you learnt doing the project
+### Lessons I learned doing the project
 
-1.Taking little steps and solving little problems 2.**KISS** *K*eeping *I*t *S*imple *S*tupid
+1.Taking little steps and solving little problems 
+2.**KISS** *K*eeping *I*t *S*imple *S*tupid
 3.Team working and getting feedbacks
 
 ### Future features
